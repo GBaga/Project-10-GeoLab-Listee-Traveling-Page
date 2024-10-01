@@ -176,7 +176,11 @@ section {
     gap: 8px;
 }
 
-.destination-container h2 {
+.destination-container h3 {
+    font-family: 'Water Brush';
+    font-size: 4.6rem;
+    font-weight: 400;
+    line-height: 66.7px;
     color: white;
 }
 
@@ -442,4 +446,21 @@ section .newsletter {
 
 .newsletter-btn:hover {
     filter: invert(1) brightness(2);
+}
+
+.fixed {
+    width: 400px;
+    height: 80px;
+    border: 2px solid rgb(30, 210, 54);
+    background: var(--orange-linear);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px 0;
+
+}
+
+.fixed h4 {
+    color: white;
+    margin: 0;
 }
